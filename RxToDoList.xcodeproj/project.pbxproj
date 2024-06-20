@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D5D8E1E030C89A4749F804D /* Pods_RxToDoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6806A9853B1EF7988D1800 /* Pods_RxToDoList.framework */; };
+		D87576482C246541007534E9 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87576472C246541007534E9 /* AddTaskViewController.swift */; };
 		D8DAB6722C23246A00E36AA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DAB6712C23246A00E36AA1 /* AppDelegate.swift */; };
 		D8DAB6742C23246A00E36AA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DAB6732C23246A00E36AA1 /* SceneDelegate.swift */; };
-		D8DAB6762C23246A00E36AA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DAB6752C23246A00E36AA1 /* ViewController.swift */; };
 		D8DAB6792C23246A00E36AA1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D8DAB6782C23246A00E36AA1 /* Base */; };
 		D8DAB67B2C23246C00E36AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DAB67A2C23246C00E36AA1 /* Assets.xcassets */; };
 		D8DAB67E2C23246C00E36AA1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D8DAB67D2C23246C00E36AA1 /* Base */; };
+		D8DAB6872C23263C00E36AA1 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DAB6862C23263C00E36AA1 /* TaskListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B6806A9853B1EF7988D1800 /* Pods_RxToDoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxToDoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6940C1014A3479B53AF6AF /* Pods-RxToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxToDoList.debug.xcconfig"; path = "Target Support Files/Pods-RxToDoList/Pods-RxToDoList.debug.xcconfig"; sourceTree = "<group>"; };
+		D87576472C246541007534E9 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		D8DAB66E2C23246A00E36AA1 /* RxToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DAB6712C23246A00E36AA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8DAB6732C23246A00E36AA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8DAB6752C23246A00E36AA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8DAB6782C23246A00E36AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8DAB67A2C23246C00E36AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8DAB67D2C23246C00E36AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8DAB67F2C23246C00E36AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DAB6862C23263C00E36AA1 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		EEED0F7CE2979A8BDB834856 /* Pods-RxToDoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxToDoList.release.xcconfig"; path = "Target Support Files/Pods-RxToDoList/Pods-RxToDoList.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5D8E1E030C89A4749F804D /* Pods_RxToDoList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2189767E1D0DCE1C6F1557C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B6806A9853B1EF7988D1800 /* Pods_RxToDoList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9406CA73A8950EEBCD0B648B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B6940C1014A3479B53AF6AF /* Pods-RxToDoList.debug.xcconfig */,
+				EEED0F7CE2979A8BDB834856 /* Pods-RxToDoList.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D8DAB6652C23246A00E36AA1 = {
 			isa = PBXGroup;
 			children = (
 				D8DAB6702C23246A00E36AA1 /* RxToDoList */,
 				D8DAB66F2C23246A00E36AA1 /* Products */,
+				9406CA73A8950EEBCD0B648B /* Pods */,
+				2189767E1D0DCE1C6F1557C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,24 @@
 		D8DAB6702C23246A00E36AA1 /* RxToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				D8DAB6852C23260C00E36AA1 /* Controllers */,
 				D8DAB6712C23246A00E36AA1 /* AppDelegate.swift */,
 				D8DAB6732C23246A00E36AA1 /* SceneDelegate.swift */,
-				D8DAB6752C23246A00E36AA1 /* ViewController.swift */,
 				D8DAB6772C23246A00E36AA1 /* Main.storyboard */,
 				D8DAB67A2C23246C00E36AA1 /* Assets.xcassets */,
 				D8DAB67C2C23246C00E36AA1 /* LaunchScreen.storyboard */,
 				D8DAB67F2C23246C00E36AA1 /* Info.plist */,
 			);
 			path = RxToDoList;
+			sourceTree = "<group>";
+		};
+		D8DAB6852C23260C00E36AA1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8DAB6862C23263C00E36AA1 /* TaskListViewController.swift */,
+				D87576472C246541007534E9 /* AddTaskViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8DAB6822C23246C00E36AA1 /* Build configuration list for PBXNativeTarget "RxToDoList" */;
 			buildPhases = (
+				89A86D918196A3977596D8A6 /* [CP] Check Pods Manifest.lock */,
 				D8DAB66A2C23246A00E36AA1 /* Sources */,
 				D8DAB66B2C23246A00E36AA1 /* Frameworks */,
 				D8DAB66C2C23246A00E36AA1 /* Resources */,
+				5BDC7B120E52D4703FF1C6F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +170,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BDC7B120E52D4703FF1C6F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxToDoList/Pods-RxToDoList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxToDoList/Pods-RxToDoList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxToDoList/Pods-RxToDoList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89A86D918196A3977596D8A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxToDoList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D8DAB66A2C23246A00E36AA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8DAB6762C23246A00E36AA1 /* ViewController.swift in Sources */,
 				D8DAB6722C23246A00E36AA1 /* AppDelegate.swift in Sources */,
+				D87576482C246541007534E9 /* AddTaskViewController.swift in Sources */,
 				D8DAB6742C23246A00E36AA1 /* SceneDelegate.swift in Sources */,
+				D8DAB6872C23263C00E36AA1 /* TaskListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +367,13 @@
 		};
 		D8DAB6832C23246C00E36AA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6940C1014A3479B53AF6AF /* Pods-RxToDoList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RxToDoList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,11 +396,13 @@
 		};
 		D8DAB6842C23246C00E36AA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEED0F7CE2979A8BDB834856 /* Pods-RxToDoList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RxToDoList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
