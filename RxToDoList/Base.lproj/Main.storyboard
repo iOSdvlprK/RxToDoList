@@ -24,6 +24,9 @@
                                     <segment title="Medium"/>
                                     <segment title="Low"/>
                                 </segments>
+                                <connections>
+                                    <action selector="priorityValueChangedWithSegmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="p7l-W3-RoC"/>
+                                </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ck5-S4-Zj8">
                                 <rect key="frame" x="0.0" y="152" width="393" height="666"/>
@@ -107,8 +110,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add Task" id="mgx-W9-mIE">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Kmg-3Z-7vB"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Kmg-3Z-7vB">
+                            <connections>
+                                <action selector="save" destination="XKf-5R-W8d" id="eNk-Up-ja7"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="prioritySegmentedControl" destination="ei9-AE-6Xm" id="4BI-kv-7EM"/>
+                        <outlet property="taskTitleTextField" destination="Onv-Fr-Mx2" id="jYv-hk-bI1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a6x-An-QEf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
